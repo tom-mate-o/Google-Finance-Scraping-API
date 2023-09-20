@@ -45,8 +45,8 @@ async function fetchData(market) {
       const stockDataItem = { // erstelle ein Objekt mit den Werten
         Name: stockName,
         Score: stockScore,
-        Gain_or_Loose: gainLoseToday,
-        Gain_or_Loose_in_Percent: formattedGainLoseTodayinPercent,
+        Gain_or_Lose: gainLoseToday,
+        Gain_or_Lose_in_Percent: formattedGainLoseTodayinPercent,
       };
 
       stockDataArray.push(stockDataItem); //Das Objekt dem Array hinzufügen
